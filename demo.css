@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 73px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+nav ul{
+   list-style: none;
+    display: inline-flex;
+    
+}
+.nav-left {
+    display: flex;
+}
+nav li{
+    margin-left: 61px;
+    margin-top: 28px;
+    font-size: 17px;
+    font-weight: 100;
+    color: #6c757d;
+}
+.logo{
+    height: 40px;
+    margin-top: 15px;
+}
+.profile{
+    height: 35px;
+  margin-top: 10px;
+}
+.search-img{
+    position: absolute;
+    top: 24px;
+    left: 777px;
+}
+.search{
+    width: 254px;
+    height: 28px;
+    margin-top: 19px;
+    margin-right: 125px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    border-color: #6c757d;
+    color: #6c757d;
+    text-indent: 42px;
+    box-shadow: 0 0 2px #00000012,
+}
+.nav-right{
+    display: flex;
+}
+.navb{
+    height: 70px;
+    background-color: #1e3932;
+    border-top: 2px solid #bcc3c8;
+}
+.navb{
+    display: flex;
+    justify-content: space-around;
+}
+.navb button{
+    width: 20px;
+}
+.rewards{
+    margin-top: 20px;
+    margin-left: -151px;
+    font-size: 24px;
+    color: #fff;
+}
+.navb button{
+    width: 87px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 17px;
+    margin-top: 17px;
+    border-color: #fff;
+    color: #fff;
+    background-color: #1e3932;
+}
+.round{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+}
+.round img{
+    border-radius: 50%;
+    height: 100px;
+}
+.round p{
+   text-align: center;
+   font-weight: 500;
+   font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+}
+.text{
+    margin-left: 85px;
+    margin-top: 30px;
+    font-size: 23px;
+}
+.demo{
+    display: flex;
+    justify-content: center;
+    height: 390px;
+}
+.slide{
+    width: 1010px;
+    height: 225px;
+    background-color: rgba(220, 196, 158, 0.913);
+    margin-top: 82px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.bottle{
+    display: flex;
+}
+.bottle img{
+    width: 97px;
+    height: 203px;
+    margin-left: 26px;
+    margin-top: 20px;
+}
+.content h6{
+    padding: 10px 0 10px 0;
+    font-size: 23px;
+}
+.content {
+    margin: 30px 0 0 33px;
+    font-size: 14px;
+}
+.for{
+margin-top: 55px;
+}
+.slide button{
+    width: 190px;
+    height: 45px;
+    border: 1px #00754a;
+    border-radius: 49px;
+    background-color: #00754a;
+    color: #fff;
+    font-weight: 600;
+    margin: 155px 0 0 114px;
+}
+.arrow-l{
+    position: absolute;
+    margin-right: 1000px;
+    margin-top: 166px;
+}
+.arrow-r{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 166px;
+}
+.price-card{
+    background-color: #EDEBE9;
+    height: 300px;
+}
+.bariz{
+    display: flex;
+   justify-content: space-between;
+ 
+}
+.bari-side{
+    display: flex;
+}
+.bari-side img{
+    width: 50px;
+    height: 50px;
+}
+.bari-side p{
+ cursor: pointer;
+ margin-top: 22px;
+ color: #00754a;
+ font-weight: 300;
+}
+
+.bari{
+    padding-top: 22px;
+    margin-left: 50PX;
+    font-size: 25px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.card1,.card3 {
+    display: flex;
+    box-shadow: 0 0 2px #00000012;
+    /* border: 1px solid rgb(138, 128, 128); */
+    border-radius: 15px;
+    width: 365px;
+    height: 154px;
+    background-color: #fff;
+}
+.dish1{
+    width: 85px;
+    height: 85px;
+    border-radius: 11px;
+    margin-bottom: 10px;
+}
+.dish-button{
+    width: 87px;
+    height: 30px;
+    border: 1px solid #00754a;
+    border-radius: 14px;
+    background-color: #00754a;
+    color: #fff;
+    font-weight: 500;
+    margin: 104px 0 0 10px;
+}
+.dish-img{
+    margin: 28px 0 0 10px;
+}
+.dish-img,.p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.vegiterian{
+    margin: 28px 0 0 10px;
+}
+.vegiterian h6{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.vegiterian p{
+    font-size: 9px;
+    color: #bcc3c8;
+}
+.arrow-l2{
+    position: absolute;
+    margin: 43px 0 0 -1152px;
+}
+.arrow-r2{
+    position: absolute;
+    margin-left: 1172px;
+    margin-top: -113px;
+}
+.learn-coffe{
+    margin-top: 50px;
+    background-color: #EDEBE9;
+    height: 445px;
+}
+.content2{
+    display: flex;
+   justify-content: space-between; 
+   padding-top: 33px;
+}
+
+
+.card3{
+    margin-left: -34px;
+}
+.content2 h4{
+    margin-left: 76px;
+    font-size: 25px;
+    margin-bottom: 24px;
+}
+.content2 p{
+    margin-right: 83px;
+    font-size: 12px;
+    color: #00754a;
+    font-weight: 500;
+}
+.coffy-img{
+    width: 1124px;
+    height: 350px;
+    margin-left: 66px;
+    border-radius: 10px;
+}
+.img-text{
+    position: absolute;
+  top: 10px;
+    left: 120px;
+}
+.b-10{
+    margin-bottom: 139px;
+    color: #00754a;
+    border: none;
+    border-radius: 2px;
+}
+.learn-image{
+    position: relative;
+}
+.img-text h4{
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+}
+.img-text p{
+    font-size: 14px;
+    color: #fff;
+    margin: 25px 0 34px;  
+}
+.b-11{
+    width: 189px;
+    height: 34px;
+    border: none;
+    border-radius: 15px;
+}
+.space{
+    height:60px ;
+}
+.footer{
+    background-color: #0E382C;
+    height: 355px;
+   
+}
+.footer-t{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+}
+.footer-t li{
+    list-style: none;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+}
+.footer-t h5{
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Contact{
+    display: flex;
+    justify-content: space-around;
+}
+.media{
+    display: flex;
+}
+.Contact p{
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 11px;
+    cursor: pointer;
+}
+.p1{
+    border-right: 1px solid #fff;
+   width: 93px;
+} 
+
